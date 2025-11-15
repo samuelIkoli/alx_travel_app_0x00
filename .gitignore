@@ -1,0 +1,88 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+test-results/
+
+# ------------------------------
+# Django
+# ------------------------------
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Django migrations (optional — keep if you want clean repo)
+# Uncomment if you prefer not to track migrations until stable
+# */migrations/*
+
+# ------------------------------
+# Environment & Config
+# ------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+*.ini
+*.cfg
+
+# ------------------------------
+# Celery
+# ------------------------------
+celerybeat-schedule
+celerybeat.pid
+
+# ------------------------------
+# IDEs / Editors
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# ------------------------------
+# MySQL dump files
+# ------------------------------
+*.sql
+*.sql.gz
+
+# ------------------------------
+# Other
+# ------------------------------
+logs/
+tmp/
