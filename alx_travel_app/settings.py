@@ -33,6 +33,7 @@ DATABASES = {
         'PORT': env('DB_PORT'),
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'read_default_file': '/var/run/mysqld/mysqld.sock',
         },
     }
 }
@@ -65,7 +66,8 @@ INSTALLED_APPS = [
     # Third-party apps
     'rest_framework',
     'corsheaders',
-    'drf_yasg'
+    'drf_yasg',
+    'listings'
 ]
 
 MIDDLEWARE = [
